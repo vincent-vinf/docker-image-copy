@@ -2,10 +2,8 @@
 使用Github Action将Docker镜像转存到阿里云镜像仓库。
 
 * 支持docker hub、k8s.io、ghcr.io等仓库
-* 支持多架构，默认拷贝全架构镜像。
-* 支持任意大小的镜像，实测转存了50G的xxx镜像
-
-
+* 支持多架构镜像，如果源镜像支持多架构，则转存所有系统/架构的镜像到同一个镜像名。
+* 支持任意大小的镜像(理论)，实测转存了6G的pytorch镜像
 
 ## quickstart
 
@@ -24,3 +22,16 @@
 fork本项目，在你自己的项目中，点击settings-security-actions，将上述提到的4个secrets配置到项目中。
 
 ![image-20241020151642964](assets/image-20241020151642964.png)
+
+### 运行action
+
+修改images.txt文件，填入希望转存的镜像，一行一个。
+
+```
+# 这是注释
+pytorch/pytorch:2.5.0-cuda12.4-cudnn9-devel
+# 不指定tag则使用latest
+nginx
+```
+
+推送代码，github会自行运行action，在action中可以进度。

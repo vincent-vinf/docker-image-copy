@@ -26,8 +26,6 @@ jobs:
 
     - name: Copy image to Aliyun
       run: |
-        set -e
-
         new_repo="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE"
 
         # Read image names from images.txt
@@ -35,7 +33,7 @@ jobs:
             # Remove leading and trailing whitespace from the image name
             # Skip if the image is blank
             image=$(echo "$image" | awk '{$1=$1};1')
-            if [[ -z "$image" ]]; then
+            if [[ -z "$image" || "$image" == \#* ]]; then
                 continue
             fi
             

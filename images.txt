@@ -1,1 +1,4 @@
-nvcr.io/nvidia/tensorflow:22.09-tf2-py3
+# 这是注释
+pytorch/pytorch:2.5.0-cuda12.4-cudnn9-devel
+# 不指定tag则使用latest
+nginx
