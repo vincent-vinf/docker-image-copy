@@ -40,7 +40,7 @@ jobs:
             image_name_tag=$(basename $image)
             # Replace / and : with _
             new_image="${new_repo}/${image_name_tag}"
-            echo "coping..."
+            echo "cope $new_image"
             skopeo copy --multi-arch all --src-tls-verify=false --dest-creds="$ALIYUN_REGISTRY_USER:$ALIYUN_REGISTRY_PASSWORD" "docker://$image" "docker://$new_image"
         done < images.txt
         echo "copy images done."
