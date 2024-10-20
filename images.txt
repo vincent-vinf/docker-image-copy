@@ -1,5 +1,4 @@
 # 这是注释
-pytorch/pytorch:2.5.0-cuda12.4-cudnn9-devel
 # 不指定tag则使用latest
 nginx
 golang:1.23.2

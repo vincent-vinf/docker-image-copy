@@ -34,4 +34,8 @@ pytorch/pytorch:2.5.0-cuda12.4-cudnn9-devel
 nginx
 ```
 
-推送代码，github会自行运行action，在action中可以进度。
+推送代码，github会自行运行action，在action中可以查看进度。
+
+## reference
+
+* [skopeo镜像工具](https://github.com/containers/skopeo)
