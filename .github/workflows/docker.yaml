@@ -26,6 +26,7 @@ jobs:
 
     - name: Copy image to Aliyun
       run: |
+        set -e
         echo "Current working directory: $(pwd)"
         echo "Listing files in current directory:"
         ls -al
