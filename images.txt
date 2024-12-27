@@ -2,4 +2,4 @@
 # 不指定tag则使用latest
 #ghcr.io/immich-app/immich-server:release
 #ghcr.io/immich-app/immich-machine-learning:release
-prom/pushgateway
+apache/hive:4.0.1
