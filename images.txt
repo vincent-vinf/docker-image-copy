@@ -2,4 +2,5 @@
 # 不指定tag则使用latest
 #ghcr.io/immich-app/immich-server:release
 #ghcr.io/immich-app/immich-machine-learning:release
-alluxio/alluxio-dev:2.9.0
+ubuntu:22.04
+golang:1.23
