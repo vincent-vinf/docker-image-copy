@@ -1,6 +1,4 @@
 # 这是注释
 # 不指定tag则使用latest
-#ghcr.io/immich-app/immich-server:release
-#ghcr.io/immich-app/immich-machine-learning:release
-ubuntu:22.04
-golang:1.23
+ghcr.io/immich-app/immich-server:release
+ghcr.io/immich-app/immich-machine-learning:release
