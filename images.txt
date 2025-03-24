@@ -2,5 +2,5 @@
 # 不指定tag则使用latest
 #ghcr.io/immich-app/immich-server:release
 #ghcr.io/immich-app/immich-machine-learning:release
-redis:6.2-alpine
-docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0
+golang:1.23
+ubuntu:22.04
