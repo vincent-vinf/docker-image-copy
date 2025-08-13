@@ -1,6 +1,6 @@
 # 这是注释
 # 不指定tag则使用latest
+prom/node-exporter:latest
+google/cadvisor:latest
 #ghcr.io/immich-app/immich-server:release
 #ghcr.io/immich-app/immich-machine-learning:release
-ghcr.io/m1k1o/neko/firefox:latest
-#quay.io/prometheus/node-exporter:v1.5.0
