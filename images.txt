@@ -2,6 +2,6 @@
 # 不指定tag则使用latest
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
-docker.io/nvidia/cuda:12.8.1-devel-ubuntu22.04
+prom/alertmanager:v0.28.1
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
