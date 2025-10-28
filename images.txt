@@ -2,6 +2,7 @@
 # 不指定tag则使用latest
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
-prom/alertmanager:v0.28.1
+#prom/alertmanager:v0.28.1
+grafana/grafana
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
