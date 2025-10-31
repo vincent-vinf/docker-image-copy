@@ -3,7 +3,6 @@
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
 #prom/alertmanager:v0.28.1
-grafana/grafana
 golang:1.25
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
