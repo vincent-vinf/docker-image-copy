@@ -3,6 +3,7 @@
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
 #prom/alertmanager:v0.28.1
-lucaslorentz/caddy-docker-proxy:ci
+caddy:2.10.2-builder
+caddy:2.10.2
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
