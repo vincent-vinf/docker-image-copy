@@ -3,6 +3,6 @@
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
 #prom/alertmanager:v0.28.1
-tdengine/tsdb
+prom/prometheus:v3.7.3
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
