@@ -3,6 +3,5 @@
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
 #prom/alertmanager:v0.28.1
-bluenviron/mediamtx:1-ffmpeg-rpi
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
