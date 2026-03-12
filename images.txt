@@ -2,6 +2,6 @@
 # 不指定tag则使用latest
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
+golang:1.25
+ubuntu
 #prom/alertmanager:v0.28.1
-ghcr.io/immich-app/immich-machine-learning:release-openvino
-ghcr.io/immich-app/immich-server:release
