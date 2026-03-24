@@ -3,5 +3,5 @@
 #crazymax/goxx:latest
 #gcr.io/cadvisor/cadvisor
 golang:1.25
-ubuntu
+zerotier/zerotier
 #prom/alertmanager:v0.28.1
