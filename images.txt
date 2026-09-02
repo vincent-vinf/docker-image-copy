@@ -1,6 +1,2 @@
-# 这是注释
-# 不指定tag则使用latest
 #crazymax/goxx:latest
-#gcr.io/cadvisor/cadvisor
-registry-1.docker.io/bitnami/redis:latest
-#prom/alertmanager:v0.28.1
+snapotter/snapotter:latest
